@@ -14,11 +14,11 @@
 11. Certificates will be provided to all active participants.
 
 # Debugging Specific rules
-A. Please don't edit the code or files inside vendor and img folder.
-B. Basic codes like linking files, setting up viewports etc. should be checked and if missing, can be added.
-C. CSS properties like margin and padding can be added if you feel it is missing.
-D. No HTML components, Bootstrap classes, CSS classes or jQuery components should be added to the given code. You have permission to add things mentioned in point B and point C. If you add any other components other than which mentioned in point B and C will lead to disqualification.
-E. index.html, style.css and main.js are the files with bugs.
+1. Please don't edit the code or files inside vendor and img folder.
+2. Basic codes like linking files, setting up viewports etc. should be checked and if missing, can be added.
+3. CSS properties like margin and padding can be added if you feel it is missing.
+4. No HTML components, Bootstrap classes, CSS classes or jQuery components should be added to the given code. You have permission to add things mentioned in point 2 and point 3. If you add any other components other than which mentioned in point 2 and 3 will lead to disqualification.
+5. index.html, style.css and main.js are the files with bugs.
 
 Any Doubts can be clarified via the whatsapp group
 

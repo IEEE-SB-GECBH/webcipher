@@ -34,12 +34,12 @@ h6 {
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  width: 4000px;
+  width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #353535;
+  background: #009cea;
   color: #fff;
-  transition: all 10s;
+  transition: all 0.4s;
 }
 
 .back-to-top i:hover {
@@ -54,11 +54,11 @@ h6 {
 }
 
 #header {
-  height: 15px;
+  height: 72px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 0px 0;
+  padding: 15px 0;
   background: #fff;
 }
 
@@ -97,7 +97,7 @@ h6 {
 
 .header-social-links a {
   color: #7b909a;
-  padding: 0px 0 0px 0px;
+  padding: 12px 0 12px 6px;
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
@@ -109,13 +109,13 @@ h6 {
 
 @media (max-width: 768px) {
   .header-social-links {
-    padding-right: 0px;
+    padding-right: 48px;
   }
 }
 
 .nav-menu,
 .nav-menu * {
-  margin: 9px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -130,7 +130,7 @@ h6 {
   display: block;
   position: relative;
   color: #7b909a;
-  padding: 0px 0px;
+  padding: 10px 15px;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -151,7 +151,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  padding: px 0;
+  padding: 10px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
@@ -330,17 +330,17 @@ h6 {
 }
 
 #hero {
-  width: 90%;
+  width: 100%;
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  background-size: container;
+  background-size: contain;
   background-position: right top;
   margin-top: 70px;
   padding: 60px 0;
 }
 
 #hero h1 {
-  margin: 0 0px 0px 0px;
+  margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -541,7 +541,7 @@ section {
 }
 
 .services .icon-box {
-  padding: 90px;
+  padding: 30px;
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -741,7 +741,7 @@ section {
     ),
     url("../img/cta-bg.jpg") center center;
   background-size: cover;
-  padding: 800px 0;
+  padding: 80px 0;
 }
 
 .cta h3 {
@@ -837,7 +837,7 @@ section {
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: #f4f6f7;
-  position: fix;
+  position: relative;
   border-radius: 6px;
   position: relative;
   z-index: 1;
@@ -871,7 +871,7 @@ section {
 .team {
   background: url("../img/team-bg.jpg") center center no-repeat;
   background-size: cover;
-  padding: 0px 0;
+  padding: 60px 0;
   position: relative;
 }
 
@@ -881,7 +881,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  bottom-top: 0;
+  bottom: 0;
   background: rgba(255, 255, 255, 0.75);
   z-index: 9;
 }
@@ -910,13 +910,13 @@ section {
   padding: 20px 0;
   color: #364146;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  max-heigh: 95px;
+  max-height: 95px;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
 
 .team .member:hover .member-info {
-  max-height: 300ppx;
+  max-height: 300px;
 }
 
 .team .member h4 {
@@ -1055,7 +1055,7 @@ section {
 
 .pricing ul i {
   color: #009cea;
-  font-size: 50px;
+  font-size: 18px;
   padding-right: 4px;
 }
 
@@ -1113,7 +1113,7 @@ section {
 }
 
 .faq {
-  padding: 6px 0;
+  padding: 60px 0;
 }
 
 .faq .faq-list {
@@ -1231,7 +1231,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  padding: 300px;
+  padding: 30px;
   background: #fff;
   border: 2px solid #e9ecee;
   border-radius: 4px;
@@ -1351,7 +1351,7 @@ section {
 
 .breadcrumbs ol {
   display: flex;
-  flex-wrap: wrp;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0 0 10px 0;
   margin: 0;
@@ -1462,7 +1462,7 @@ section {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30pxx;
+  margin-bottom: 30px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1487,7 +1487,8 @@ section {
   background: #e9ecee;
   color: #8a9ca5;
   line-height: 1;
-  margin-right: 4p;
+  padding: 8px 0;
+  margin-right: 4px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1506,6 +1507,7 @@ section {
   font-weight: 600;
   color: #364146;
   position: relative;
+  padding-bottom: 12px;
 }
 
 #footer .footer-top .footer-links {
@@ -1527,6 +1529,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
+  padding: 10px 0;
   display: flex;
   align-items: center;
 }
@@ -1549,6 +1552,7 @@ section {
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
+  padding: 6px 10px;
   position: relative;
   border-radius: 4px;
   border: 1px solid #e3e7e9;
@@ -1581,9 +1585,5 @@ section {
 
 #footer .copyright {
   text-align: center;
-}
-
-#footer .credits {
-  font-size: 13px;
-  color: #364146;
+  padding-top: 30px;
 }
